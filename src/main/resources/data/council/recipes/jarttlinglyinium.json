@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "council:jarttlinglyinium_ore"
+  },
+  "result": "council:jarttlinglyinium",
+  "experience": 1,
+  "cookingtime": 1
+}
