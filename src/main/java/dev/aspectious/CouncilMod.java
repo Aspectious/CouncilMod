@@ -14,6 +14,9 @@ import net.minecraft.world.gen.feature.PlacedFeature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class CouncilMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -29,7 +32,7 @@ public class CouncilMod implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Loaded Mod");
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,JARTTLINGLYINIUM_ORE_PLACED_KEY);
 	}
 }

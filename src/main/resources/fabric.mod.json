@@ -2,16 +2,20 @@
 	"schemaVersion": 1,
 	"id": "council",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "The Council Mod",
+	"description": "This is what you get when you throw a bunch of nerds' ideas at a wall and see what doesn't stick",
 	"authors": [
-		"Me!"
+		"Aspectious",
+		"Sushibirb",
+		"Storbochan",
+		"Archist",
+		"Choice"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/apectious/councilmod/",
+		"github": "https://github.com/apectious/councilmod/"
 	},
-	"license": "CC0-1.0",
+	"license": "The ol' fuckoffaroo license",
 	"icon": "assets/council/icon.png",
 	"environment": "*",
 	"entrypoints": {

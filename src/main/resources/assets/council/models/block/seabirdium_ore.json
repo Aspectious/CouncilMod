@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "council:block/allenminium"
+    "all": "council:block/seabirdium_ore"
   }
 }

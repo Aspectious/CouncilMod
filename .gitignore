@@ -5,6 +5,9 @@ build/
 out/
 classes/
 
+#fabric
+
+run/
 # eclipse
 
 *.launch
@@ -28,9 +31,6 @@ bin/
 
 *.DS_Store
 
-# fabric
-
-run/
 
 # java
 
