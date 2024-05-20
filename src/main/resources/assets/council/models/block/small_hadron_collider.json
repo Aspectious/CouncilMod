@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up":"council:block/small_hadron_collider_top",
+    "down":"council:block/small_hadron_collider_bottom",
+    "north":"council:block/small_hadron_collider_side", 
+    "south":"council:block/small_hadron_collider_side",
+    "east":"council:block/small_hadron_collider_side",
+    "west":"council:block/small_hadron_collider_side"
+  }
+}

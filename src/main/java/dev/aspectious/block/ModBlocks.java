@@ -21,7 +21,7 @@ public class ModBlocks {
                             .requiresTool()
             )
     );
-    public static final Block allenminium = registerBlock("allenminium_ore",
+    public static final Block allenminium_ore = registerBlock("allenminium_ore",
             new Block(
                     FabricBlockSettings.create()
                             .strength(1.0f)
@@ -32,8 +32,8 @@ public class ModBlocks {
     public static final Block bananium_ore = registerBlock("bananium_ore",
             new Block(
                     FabricBlockSettings.create()
-                            .strength(2.0f)
-                            .hardness(1.0f)
+                            .strength(1.0f)
+                            .hardness(0.5f)
                             .slipperiness(200.0f)
                             .requiresTool()
             )
@@ -41,8 +41,16 @@ public class ModBlocks {
     public static final Block seabirdium_ore = registerBlock("seabirdium_ore",
             new Block(
                     FabricBlockSettings.create()
-                            .strength(5.0f)
+                            .strength(3.0f)
                             .hardness(3.0f)
+                            .requiresTool()
+            )
+    );
+    public static final Block small_hadron_collider = registerBlock("small_hadron_collider",
+            new Block(
+                    FabricBlockSettings.create()
+                            .strength(0.5f)
+                            .hardness(0.5f)
                             .requiresTool()
             )
     );

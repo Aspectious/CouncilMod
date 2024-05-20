@@ -1,9 +1,9 @@
 {
-  "feature": "council:jarttlinglyinium_ore",
+  "feature": "council:allenminium_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 3
+      "count": 8
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "absolute": 15
+          "absolute": 20
         },
         "min_inclusive": {
-          "absolute": -64
+          "absolute": -40
         }
       }
     },

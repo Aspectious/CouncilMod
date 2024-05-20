@@ -3,11 +3,18 @@
   "block.council.jarttlinglyinium" : "Moshuart Jarttlinglyinium",
   "item.council.jarttlinglyinium_ore": "Moshuart Jarttlinglyinium Ore",
   "block.council.jarttlinglyinium_ore": "Moshuart Jarttlinglyinium Ore",
-  "item.council.allenminium": "Allenminium",
-  "block.council.allenminium": "Allenminium",
-
+  "item.council.allenminium_ore": "Allenminium Ore",
+  "block.council.allenminium_ore": "Allenminium Ore",
+  "item.council.seabirdium_ore": "Seabirdium Ore",
+  "block.council.seabirdium_ore": "Seabirdium Ore",
+  "item.council.bananium_ore": "Raw Bananium",
+  "block.council.bananium_ore": "Raw Bananium",
+  "item.council.small_hadron_collider": "Small Hadron Collider",
+  "block.council.small_hadron_collider": "Small Hadron Collider",
   "item.council.spenr": "Photo of the Bananannar Man",
   "item.council.cum_bucket": "Bucket of Mysterious Human Fluid",
-  "item.council.glass_cup": "Glass Cup"
+  "item.council.glass_cup": "Glass Cup",
+  "item.council.bananium_shard": "Bananium Shard",
+  "item.council.bananium": "Bananium"
 
 }

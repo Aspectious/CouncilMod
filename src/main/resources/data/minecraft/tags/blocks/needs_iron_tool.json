@@ -1,9 +1,7 @@
 {
   "replace": false,
   "values": [
-    "council:jarttlinglyinium_ore",
     "council:bananium_ore",
-    "council:seabirdium_ore",
     "council:allenminium_ore"
   ]
 }

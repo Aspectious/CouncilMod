@@ -24,6 +24,9 @@ public class CouncilMod implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("council");
 	public static final String MOD_ID = "council";
 	public static final RegistryKey<PlacedFeature> JARTTLINGLYINIUM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("council","jarttlinglyinium_ore"));
+	public static final RegistryKey<PlacedFeature> BANANIUM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("council","bananium_ore"));
+	public static final RegistryKey<PlacedFeature> SEABIRDIUM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("council","seabirdium_ore"));
+	public static final RegistryKey<PlacedFeature> ALLENMINIUM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("council","allenminium_ore"));
 
 	@Override
 	public void onInitialize() {
@@ -34,5 +37,9 @@ public class CouncilMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		LOGGER.info("Loaded Mod");
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,JARTTLINGLYINIUM_ORE_PLACED_KEY);
+		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,BANANIUM_ORE_PLACED_KEY);
+		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,SEABIRDIUM_ORE_PLACED_KEY);
+		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES,ALLENMINIUM_ORE_PLACED_KEY);
+
 	}
 }
